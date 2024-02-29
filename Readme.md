@@ -28,6 +28,8 @@
 
 * `scripts.py`: Main script for data processing, analysis, and visualization.
 * `requirements.txt`: for downloading dependencies. Do a `pip install -r requirements.txt`
+* `average_depth_and_magnitude_stats.csv` and `final_output.csv` are the locations to the output generated
+
 
 **Execution:**
 

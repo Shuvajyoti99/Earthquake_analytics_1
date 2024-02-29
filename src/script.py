@@ -76,7 +76,7 @@ reference_lat = 0.0
 reference_lon = 0.0
 
 # Categorize magnitudes and calculate distances
-categorized_df = filtered_df.withColumn("Level1", udf_categorize_magnitude(col("Magnitude")))
+categorized_df = filtered_df.withColumn("Level", udf_categorize_magnitude(col("Magnitude")))
 final_df = categorized_df.withColumn(
     "Distance (euclidean_distance)",
     udf_euclidean_distance(col("Latitude"), col("Longitude"), lit(reference_lat), lit(reference_lon))
