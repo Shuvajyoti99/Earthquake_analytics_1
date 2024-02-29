@@ -26,14 +26,14 @@
 
 **Code Structure:**
 
-* `earthquake_analysis.py`: Main script for data processing, analysis, and visualization.
-* `utils.py`: (Optional) Utility functions.
+* `scripts.py`: Main script for data processing, analysis, and visualization.
+* `requirements.txt`: for downloading dependencies. Do a `pip install -r requirements.txt`
 
 **Execution:**
 
 1. Install Spark and Folium.
-2. Set `file_path` in `earthquake_analysis.py` to your CSV file.
-3. run src/scripts.py
+2. Set `file_path` in `scripts.py` to your CSV file.
+3. run `scripts.py`
 
 **Output:**
 
